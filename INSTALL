@@ -1,0 +1,16 @@
+Building BellaCoin
+
+
+** NOTE **
+
+If you are running Debian (Xubuntu, Ubuntu should work just fine too), you can just run the following from this directory:
+perl installer.pl
+
+
+See doc/readme-qt.rst for instructions on building BellaCoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of BellaCoin.
+
+See doc/build-*.txt for instructions on building BellaCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of BellaCoin.
