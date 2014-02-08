@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.6.1
+!define VERSION 1.0.0.0
 !define COMPANY "BellaCoin project"
 !define URL http://www.BellaCoin.com/
 
@@ -45,7 +45,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile BellaCoin-0.8.6.1-win32-setup.exe
+OutFile BellaCoin-1.0.0.0-win32-setup.exe
 InstallDir $PROGRAMFILES\BellaCoin
 CRCCheck on
 XPStyle on
