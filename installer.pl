@@ -106,7 +106,7 @@ if ($continue =~ /y/i) {
         print "Issue installing the console wallet.  Please e-mail any output to installer\@bellacoin.com.\n";
       } else {
         print "\nBellaCoind has been installed in /usr/local/bin/\n";
-	print "\nThe installer has finished.  Thank you for choosing BellaCoin!\nIf you have any questions, please visit http://www.bellacoin.com\nor e-mail support@bellacoin.com\n\n";
+	print "\nThe installer has finished.  Thank you for choosing BellaCoin!\nIf you have any questions, please visit http://www.bellacoin.com\nor e-mail support\@bellacoin.com\n\n";
       }
     }
   } else {
