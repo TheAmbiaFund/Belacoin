@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = BellaCoin-qt
 macx:TARGET = "BellaCoin-Qt"
-VERSION = 1.0.0.0
+VERSION = 1.0.1.0
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
@@ -197,6 +197,9 @@ HEADERS += src/qt/bitcoingui.h \
     src/qt/walletframe.h \
     src/bitcoinrpc.h \
     src/qt/overviewpage.h \
+    src/qt/explorerpage.h \
+    src/qt/tradepage.h \
+    src/qt/poolpage.h \
     src/qt/csvmodelwriter.h \
     src/crypter.h \
     src/qt/sendcoinsentry.h \
@@ -275,6 +278,9 @@ SOURCES += src/qt/bitcoin.cpp \
     src/rpcblockchain.cpp \
     src/rpcrawtransaction.cpp \
     src/qt/overviewpage.cpp \
+    src/qt/explorerpage.cpp \
+    src/qt/tradepage.cpp \
+    src/qt/poolpage.cpp \
     src/qt/csvmodelwriter.cpp \
     src/crypter.cpp \
     src/qt/sendcoinsentry.cpp \
@@ -302,6 +308,9 @@ FORMS += src/qt/forms/sendcoinsdialog.ui \
     src/qt/forms/editaddressdialog.ui \
     src/qt/forms/transactiondescdialog.ui \
     src/qt/forms/overviewpage.ui \
+    src/qt/forms/explorerpage.ui \
+    src/qt/forms/tradepage.ui \
+    src/qt/forms/poolpage.ui \
     src/qt/forms/sendcoinsentry.ui \
     src/qt/forms/askpassphrasedialog.ui \
     src/qt/forms/rpcconsole.ui \

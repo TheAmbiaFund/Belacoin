@@ -13,6 +13,9 @@ class WalletModel;
 class WalletStack;
 class TransactionView;
 class OverviewPage;
+class ExplorerPage;
+class TradePage;
+class PoolPage;
 class AddressBookPage;
 class SendCoinsDialog;
 class SignVerifyMessageDialog;
@@ -63,6 +66,9 @@ public:
     /** Used by WalletView to allow access to needed QActions */
     // Todo: Use Qt signals for these
     QAction * getOverviewAction() { return overviewAction; }
+    QAction * getExplorerAction() { return explorerAction; }
+    QAction * getTradeAction() { return tradeAction; }
+    QAction * getPoolAction() { return poolAction; }
     QAction * getHistoryAction() { return historyAction; }
     QAction * getAddressBookAction() { return addressBookAction; }
     QAction * getReceiveCoinsAction() { return receiveCoinsAction; }
@@ -87,6 +93,9 @@ private:
 
     QMenuBar *appMenuBar;
     QAction *overviewAction;
+    QAction *explorerAction;
+    QAction *tradeAction;
+    QAction *poolAction;
     QAction *historyAction;
     QAction *quitAction;
     QAction *sendCoinsAction;
@@ -165,6 +174,9 @@ public slots:
 private slots:
     /** Switch to overview (home) page */
     void gotoOverviewPage();
+    void gotoExplorerPage();
+    void gotoTradePage();
+    void gotoPoolPage();
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
     /** Switch to address book page */

@@ -2,6 +2,10 @@
 #define OVERVIEWPAGE_H
 
 #include <QWidget>
+#include <QNetworkAccessManager>
+#include <QNetworkReply>
+#include <QByteArray>
+#include <QTimer>
 
 namespace Ui {
     class OverviewPage;
@@ -42,6 +46,8 @@ private:
     qint64 currentUnconfirmedBalance;
     qint64 currentImmatureBalance;
 
+    QNetworkAccessManager *nam;
+    QNetworkAccessManager *nam2;
     TxViewDelegate *txdelegate;
     TransactionFilterProxy *filter;
 
@@ -49,6 +55,8 @@ private slots:
     void updateDisplayUnit();
     void handleTransactionClicked(const QModelIndex &index);
     void updateAlerts(const QString &warnings);
+    void finished(QNetworkReply *reply);
+    void DoHttpGet();
 };
 
 #endif // OVERVIEWPAGE_H

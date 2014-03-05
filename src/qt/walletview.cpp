@@ -15,6 +15,9 @@
 #include "optionsmodel.h"
 #include "transactionview.h"
 #include "overviewpage.h"
+#include "explorerpage.h"
+#include "tradepage.h"
+#include "poolpage.h"
 #include "askpassphrasedialog.h"
 #include "ui_interface.h"
 
@@ -37,6 +40,9 @@ WalletView::WalletView(QWidget *parent, BitcoinGUI *_gui):
 {
     // Create tabs
     overviewPage = new OverviewPage();
+    explorerPage = new ExplorerPage();
+    tradePage = new TradePage();
+    poolPage = new PoolPage();
 
     transactionsPage = new QWidget(this);
     QVBoxLayout *vbox = new QVBoxLayout();
@@ -66,6 +72,9 @@ WalletView::WalletView(QWidget *parent, BitcoinGUI *_gui):
     addWidget(addressBookPage);
     addWidget(receiveCoinsPage);
     addWidget(sendCoinsPage);
+    addWidget(explorerPage);
+    addWidget(tradePage);
+    addWidget(poolPage);
 
     // Clicking on a transaction on the overview page simply sends you to transaction history page
     connect(overviewPage, SIGNAL(transactionClicked(QModelIndex)), this, SLOT(gotoHistoryPage()));
@@ -103,6 +112,9 @@ void WalletView::setClientModel(ClientModel *clientModel)
         overviewPage->setClientModel(clientModel);
         addressBookPage->setOptionsModel(clientModel->getOptionsModel());
         receiveCoinsPage->setOptionsModel(clientModel->getOptionsModel());
+        explorerPage->setClientModel(clientModel);
+        tradePage->setClientModel(clientModel);
+        poolPage->setClientModel(clientModel);
     }
 }
 
@@ -121,6 +133,9 @@ void WalletView::setWalletModel(WalletModel *walletModel)
         receiveCoinsPage->setModel(walletModel->getAddressTableModel());
         sendCoinsPage->setModel(walletModel);
         signVerifyMessageDialog->setModel(walletModel);
+        explorerPage->setWalletModel(walletModel);
+        tradePage->setWalletModel(walletModel);
+        poolPage->setWalletModel(walletModel);
 
         setEncryptionStatus();
         connect(walletModel, SIGNAL(encryptionStatusChanged(int)), gui, SLOT(setEncryptionStatus(int)));
@@ -154,6 +169,24 @@ void WalletView::gotoOverviewPage()
 {
     gui->getOverviewAction()->setChecked(true);
     setCurrentWidget(overviewPage);
+}
+
+void WalletView::gotoExplorerPage()
+{
+    gui->getExplorerAction()->setChecked(true);
+    setCurrentWidget(explorerPage);
+}
+
+void WalletView::gotoTradePage()
+{
+    gui->getTradeAction()->setChecked(true);
+    setCurrentWidget(tradePage);
+}
+
+void WalletView::gotoPoolPage()
+{
+    gui->getPoolAction()->setChecked(true);
+    setCurrentWidget(poolPage);
 }
 
 void WalletView::gotoHistoryPage()

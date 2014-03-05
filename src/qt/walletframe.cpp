@@ -83,6 +83,21 @@ void WalletFrame::gotoOverviewPage()
     walletStack->gotoOverviewPage();
 }
 
+void WalletFrame::gotoExplorerPage()
+{
+    walletStack->gotoExplorerPage();
+}
+
+void WalletFrame::gotoTradePage()
+{
+    walletStack->gotoTradePage();
+}
+
+void WalletFrame::gotoPoolPage()
+{
+    walletStack->gotoPoolPage();
+}
+
 void WalletFrame::gotoHistoryPage()
 {
     walletStack->gotoHistoryPage();

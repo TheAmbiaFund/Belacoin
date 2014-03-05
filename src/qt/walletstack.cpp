@@ -82,6 +82,27 @@ void WalletStack::gotoOverviewPage()
         i.value()->gotoOverviewPage();
 }
 
+void WalletStack::gotoExplorerPage()
+{
+    QMap<QString, WalletView*>::const_iterator i;
+    for (i = mapWalletViews.constBegin(); i != mapWalletViews.constEnd(); ++i)
+        i.value()->gotoExplorerPage();
+}
+
+void WalletStack::gotoTradePage()
+{
+    QMap<QString, WalletView*>::const_iterator i;
+    for (i = mapWalletViews.constBegin(); i != mapWalletViews.constEnd(); ++i)
+        i.value()->gotoTradePage();
+}
+
+void WalletStack::gotoPoolPage()
+{
+    QMap<QString, WalletView*>::const_iterator i;
+    for (i = mapWalletViews.constBegin(); i != mapWalletViews.constEnd(); ++i)
+        i.value()->gotoPoolPage();
+}
+
 void WalletStack::gotoHistoryPage()
 {
     QMap<QString, WalletView*>::const_iterator i;

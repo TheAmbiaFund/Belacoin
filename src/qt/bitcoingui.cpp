@@ -173,6 +173,7 @@ void BitcoinGUI::createActions()
     overviewAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_1));
     tabGroup->addAction(overviewAction);
 
+
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send"), this);
     sendCoinsAction->setStatusTip(tr("Send coins to a BellaCoin address"));
     sendCoinsAction->setToolTip(sendCoinsAction->statusTip());
@@ -201,6 +202,27 @@ void BitcoinGUI::createActions()
     addressBookAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
     tabGroup->addAction(addressBookAction);
 
+    explorerAction = new QAction(QIcon(":/icons/explorer"), tr("&Explorer"), this);
+    explorerAction->setStatusTip(tr("BellaCoin Block Explorer"));
+    explorerAction->setToolTip(explorerAction->statusTip());
+    explorerAction->setCheckable(true);
+    explorerAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_6));
+    tabGroup->addAction(explorerAction);
+
+    tradeAction = new QAction(QIcon(":/icons/trade"), tr("&Trade"), this);
+    tradeAction->setStatusTip(tr("Varying Market Rates On Exchanges Trading BELA"));
+    tradeAction->setToolTip(tradeAction->statusTip());
+    tradeAction->setCheckable(true);
+    tradeAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_7));
+    tabGroup->addAction(tradeAction);
+
+    poolAction = new QAction(QIcon(":/icons/pool"), tr("&BellaCoin Pools"), this);
+    poolAction->setStatusTip(tr("BellaCoin Pools Statistics"));
+    poolAction->setToolTip(poolAction->statusTip());
+    poolAction->setCheckable(true);
+    poolAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_8));
+    tabGroup->addAction(poolAction);
+
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(gotoOverviewPage()));
     connect(sendCoinsAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
@@ -211,6 +233,12 @@ void BitcoinGUI::createActions()
     connect(historyAction, SIGNAL(triggered()), this, SLOT(gotoHistoryPage()));
     connect(addressBookAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(addressBookAction, SIGNAL(triggered()), this, SLOT(gotoAddressBookPage()));
+    connect(explorerAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
+    connect(explorerAction, SIGNAL(triggered()), this, SLOT(gotoExplorerPage()));
+    connect(tradeAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
+    connect(tradeAction, SIGNAL(triggered()), this, SLOT(gotoTradePage()));
+    connect(poolAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
+    connect(poolAction, SIGNAL(triggered()), this, SLOT(gotoPoolPage()));
 
     quitAction = new QAction(QIcon(":/icons/quit"), tr("E&xit"), this);
     quitAction->setStatusTip(tr("Quit application"));
@@ -295,6 +323,9 @@ void BitcoinGUI::createToolBars()
     toolbar->addAction(receiveCoinsAction);
     toolbar->addAction(historyAction);
     toolbar->addAction(addressBookAction);
+    toolbar->addAction(explorerAction);
+    toolbar->addAction(tradeAction);
+    toolbar->addAction(poolAction);
 }
 
 void BitcoinGUI::setClientModel(ClientModel *clientModel)
@@ -362,6 +393,9 @@ void BitcoinGUI::removeAllWallets()
 void BitcoinGUI::setWalletActionsEnabled(bool enabled)
 {
     overviewAction->setEnabled(enabled);
+    explorerAction->setEnabled(enabled);
+    tradeAction->setEnabled(enabled);
+    poolAction->setEnabled(enabled);
     sendCoinsAction->setEnabled(enabled);
     receiveCoinsAction->setEnabled(enabled);
     historyAction->setEnabled(enabled);
@@ -475,6 +509,21 @@ void BitcoinGUI::aboutClicked()
 void BitcoinGUI::gotoOverviewPage()
 {
     if (walletFrame) walletFrame->gotoOverviewPage();
+}
+
+void BitcoinGUI::gotoExplorerPage()
+{
+    if (walletFrame) walletFrame->gotoExplorerPage();
+}
+
+void BitcoinGUI::gotoTradePage()
+{
+    if (walletFrame) walletFrame->gotoTradePage();
+}
+
+void BitcoinGUI::gotoPoolPage()
+{
+    if (walletFrame) walletFrame->gotoPoolPage();
 }
 
 void BitcoinGUI::gotoHistoryPage()

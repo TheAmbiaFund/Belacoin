@@ -44,6 +44,9 @@ private:
 public slots:
     /** Switch to overview (home) page */
     void gotoOverviewPage();
+    void gotoExplorerPage();
+    void gotoTradePage();
+    void gotoPoolPage();
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
     /** Switch to address book page */
