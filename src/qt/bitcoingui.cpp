@@ -223,6 +223,13 @@ void BitcoinGUI::createActions()
     poolAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_8));
     tabGroup->addAction(poolAction);
 
+    voucherAction = new QAction(QIcon(":/icons/voucher"), tr("&Voucher Redemption"), this);
+    voucherAction->setStatusTip(tr("Redeem Your BellaCoin Vouchers"));
+    voucherAction->setToolTip(voucherAction->statusTip());
+    voucherAction->setCheckable(true);
+    voucherAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_9));
+    tabGroup->addAction(voucherAction);
+
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(gotoOverviewPage()));
     connect(sendCoinsAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
@@ -239,6 +246,8 @@ void BitcoinGUI::createActions()
     connect(tradeAction, SIGNAL(triggered()), this, SLOT(gotoTradePage()));
     connect(poolAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(poolAction, SIGNAL(triggered()), this, SLOT(gotoPoolPage()));
+    connect(voucherAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
+    connect(voucherAction, SIGNAL(triggered()), this, SLOT(gotoVoucherPage()));
 
     quitAction = new QAction(QIcon(":/icons/quit"), tr("E&xit"), this);
     quitAction->setStatusTip(tr("Quit application"));
@@ -326,6 +335,7 @@ void BitcoinGUI::createToolBars()
     toolbar->addAction(explorerAction);
     toolbar->addAction(tradeAction);
     toolbar->addAction(poolAction);
+    toolbar->addAction(voucherAction);
 }
 
 void BitcoinGUI::setClientModel(ClientModel *clientModel)
@@ -394,6 +404,7 @@ void BitcoinGUI::setWalletActionsEnabled(bool enabled)
 {
     overviewAction->setEnabled(enabled);
     explorerAction->setEnabled(enabled);
+    voucherAction->setEnabled(enabled);
     tradeAction->setEnabled(enabled);
     poolAction->setEnabled(enabled);
     sendCoinsAction->setEnabled(enabled);
@@ -514,6 +525,11 @@ void BitcoinGUI::gotoOverviewPage()
 void BitcoinGUI::gotoExplorerPage()
 {
     if (walletFrame) walletFrame->gotoExplorerPage();
+}
+
+void BitcoinGUI::gotoVoucherPage()
+{
+    if (walletFrame) walletFrame->gotoVoucherPage();
 }
 
 void BitcoinGUI::gotoTradePage()

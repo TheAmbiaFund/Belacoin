@@ -89,6 +89,13 @@ void WalletStack::gotoExplorerPage()
         i.value()->gotoExplorerPage();
 }
 
+void WalletStack::gotoVoucherPage()
+{
+    QMap<QString, WalletView*>::const_iterator i;
+    for (i = mapWalletViews.constBegin(); i != mapWalletViews.constEnd(); ++i)
+        i.value()->gotoVoucherPage();
+}
+
 void WalletStack::gotoTradePage()
 {
     QMap<QString, WalletView*>::const_iterator i;

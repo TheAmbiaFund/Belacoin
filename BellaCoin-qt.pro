@@ -198,6 +198,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/bitcoinrpc.h \
     src/qt/overviewpage.h \
     src/qt/explorerpage.h \
+    src/qt/voucherpage.h \
     src/qt/tradepage.h \
     src/qt/poolpage.h \
     src/qt/csvmodelwriter.h \
@@ -279,6 +280,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/rpcrawtransaction.cpp \
     src/qt/overviewpage.cpp \
     src/qt/explorerpage.cpp \
+    src/qt/voucherpage.cpp \
     src/qt/tradepage.cpp \
     src/qt/poolpage.cpp \
     src/qt/csvmodelwriter.cpp \
@@ -309,6 +311,7 @@ FORMS += src/qt/forms/sendcoinsdialog.ui \
     src/qt/forms/transactiondescdialog.ui \
     src/qt/forms/overviewpage.ui \
     src/qt/forms/explorerpage.ui \
+    src/qt/forms/voucherpage.ui \
     src/qt/forms/tradepage.ui \
     src/qt/forms/poolpage.ui \
     src/qt/forms/sendcoinsentry.ui \

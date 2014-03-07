@@ -16,6 +16,7 @@
 #include "transactionview.h"
 #include "overviewpage.h"
 #include "explorerpage.h"
+#include "voucherpage.h"
 #include "tradepage.h"
 #include "poolpage.h"
 #include "askpassphrasedialog.h"
@@ -41,6 +42,7 @@ WalletView::WalletView(QWidget *parent, BitcoinGUI *_gui):
     // Create tabs
     overviewPage = new OverviewPage();
     explorerPage = new ExplorerPage();
+    voucherPage = new VoucherPage();
     tradePage = new TradePage();
     poolPage = new PoolPage();
 
@@ -75,6 +77,7 @@ WalletView::WalletView(QWidget *parent, BitcoinGUI *_gui):
     addWidget(explorerPage);
     addWidget(tradePage);
     addWidget(poolPage);
+    addWidget(voucherPage);
 
     // Clicking on a transaction on the overview page simply sends you to transaction history page
     connect(overviewPage, SIGNAL(transactionClicked(QModelIndex)), this, SLOT(gotoHistoryPage()));
@@ -115,6 +118,7 @@ void WalletView::setClientModel(ClientModel *clientModel)
         explorerPage->setClientModel(clientModel);
         tradePage->setClientModel(clientModel);
         poolPage->setClientModel(clientModel);
+        voucherPage->setClientModel(clientModel);
     }
 }
 
@@ -136,6 +140,7 @@ void WalletView::setWalletModel(WalletModel *walletModel)
         explorerPage->setWalletModel(walletModel);
         tradePage->setWalletModel(walletModel);
         poolPage->setWalletModel(walletModel);
+        voucherPage->setWalletModel(walletModel);
 
         setEncryptionStatus();
         connect(walletModel, SIGNAL(encryptionStatusChanged(int)), gui, SLOT(setEncryptionStatus(int)));
@@ -175,6 +180,12 @@ void WalletView::gotoExplorerPage()
 {
     gui->getExplorerAction()->setChecked(true);
     setCurrentWidget(explorerPage);
+}
+
+void WalletView::gotoVoucherPage()
+{
+    gui->getVoucherAction()->setChecked(true);
+    setCurrentWidget(voucherPage);
 }
 
 void WalletView::gotoTradePage()

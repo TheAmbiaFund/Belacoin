@@ -19,6 +19,7 @@ class WalletView;
 class TransactionView;
 class OverviewPage;
 class ExplorerPage;
+class VoucherPage;
 class TradePage;
 class PoolPage;
 class AddressBookPage;
@@ -76,6 +77,7 @@ public slots:
     void gotoExplorerPage();
     void gotoTradePage();
     void gotoPoolPage();
+    void gotoVoucherPage();
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
     /** Switch to address book page */

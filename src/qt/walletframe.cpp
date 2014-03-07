@@ -88,6 +88,11 @@ void WalletFrame::gotoExplorerPage()
     walletStack->gotoExplorerPage();
 }
 
+void WalletFrame::gotoVoucherPage()
+{
+    walletStack->gotoVoucherPage();
+}
+
 void WalletFrame::gotoTradePage()
 {
     walletStack->gotoTradePage();

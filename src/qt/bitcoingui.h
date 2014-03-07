@@ -14,6 +14,7 @@ class WalletStack;
 class TransactionView;
 class OverviewPage;
 class ExplorerPage;
+class VoucherPage;
 class TradePage;
 class PoolPage;
 class AddressBookPage;
@@ -67,6 +68,7 @@ public:
     // Todo: Use Qt signals for these
     QAction * getOverviewAction() { return overviewAction; }
     QAction * getExplorerAction() { return explorerAction; }
+    QAction * getVoucherAction() { return voucherAction; }
     QAction * getTradeAction() { return tradeAction; }
     QAction * getPoolAction() { return poolAction; }
     QAction * getHistoryAction() { return historyAction; }
@@ -94,6 +96,7 @@ private:
     QMenuBar *appMenuBar;
     QAction *overviewAction;
     QAction *explorerAction;
+    QAction *voucherAction;
     QAction *tradeAction;
     QAction *poolAction;
     QAction *historyAction;
@@ -177,6 +180,7 @@ private slots:
     void gotoExplorerPage();
     void gotoTradePage();
     void gotoPoolPage();
+    void gotoVoucherPage();
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
     /** Switch to address book page */
