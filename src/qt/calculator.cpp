@@ -1,5 +1,5 @@
-#include "tradepage.h"
-#include "ui_tradepage.h"
+#include "calculator.h"
+#include "ui_calculator.h"
 
 #include "clientmodel.h"
 #include "walletmodel.h"
@@ -15,11 +15,11 @@
 
 #define DECORATION_SIZE 64
 
-class TradeViewDelegate : public QAbstractItemDelegate
+class CalculatorViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TradeViewDelegate(): QAbstractItemDelegate(), unit(BitcoinUnits::BTC) { }
+    CalculatorViewDelegate(): QAbstractItemDelegate(), unit(BitcoinUnits::BTC) { }
 
     inline void paint(QPainter *painter, const QStyleOptionViewItem &option,
                       const QModelIndex &index ) const
@@ -47,46 +47,41 @@ public:
     int unit;
 
 };
-#include "tradepage.moc"
+#include "calculator.moc"
 
-TradePage::TradePage(QWidget *parent) :
+CalculatorPage::CalculatorPage(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::TradePage),
+    ui(new Ui::CalculatorPage),
     clientModel(0),
     walletModel(0),
-    currentBalance(-1),
-    tradedelegate(new TradeViewDelegate())
+    calculatordelegate(new CalculatorViewDelegate())
 {
     ui->setupUi(this);
     nam = new QNetworkAccessManager(this);
-    nam2 = new QNetworkAccessManager(this);
-    DoHttpGet();
-    QTimer *timer = new QTimer(this);
     ui->textBrowser->setHidden(true);
-    connect(timer, SIGNAL(timeout()), this, SLOT(DoHttpGet()));
-    timer->start(35000);
     connect(nam,SIGNAL(finished(QNetworkReply*)),this,SLOT(finished(QNetworkReply*)));
+    connect(ui->submitButton,SIGNAL(clicked()),this,SLOT(DoHttpGet()));
 }
 
-TradePage::~TradePage()
+CalculatorPage::~CalculatorPage()
 {
     delete ui;
 }
 
-void TradePage::setClientModel(ClientModel *model)
+void CalculatorPage::setClientModel(ClientModel *model)
 {
     this->clientModel = model;
+    if(model)
+    {
+    }
 }
 
-void TradePage::setWalletModel(WalletModel *model)
+void CalculatorPage::setWalletModel(WalletModel *model)
 {
     this->walletModel = model;
-    setBalance(model->getBalance());
-    connect(model, SIGNAL(balanceChanged(qint64, qint64, qint64)), this, SLOT(setBalance(qint64)));
-
 }
 
-void TradePage::finished(QNetworkReply *reply) {
+void CalculatorPage::finished(QNetworkReply *reply) {
   ui->textBrowser->setHidden(false);
   if(reply->error() == QNetworkReply::NoError) {
     ui->textBrowser->setText(reply->readAll());
@@ -95,15 +90,11 @@ void TradePage::finished(QNetworkReply *reply) {
   }
 }
 
-void TradePage::setBalance(qint64 balance) {
-    int unit = walletModel->getOptionsModel()->getDisplayUnit();
-    QString url2 = "http://srv.bellacoin.com/devtrade.php?c=l&b=";
-    QString bdata = BitcoinUnits::formatWithUnit(unit, balance);
-    QString final2 = url2 + bdata;
-    nam2->get(QNetworkRequest(QUrl(final2)));
-}
-
-void TradePage::DoHttpGet() {
-  QString url = "http://srv.bellacoin.com/devtrade.php?c=l";
-  nam->get(QNetworkRequest(QUrl(url)));
+void CalculatorPage::DoHttpGet() {
+  QString url = "http://srv.bellacoin.com/calculator.php?c=l&h=";
+  QString hashrate = ui->hashrate->text();
+  QString final = url + hashrate;
+  QByteArray postData;
+  postData.append(hashrate.toAscii());
+  nam->get(QNetworkRequest(QUrl(final)));
 }

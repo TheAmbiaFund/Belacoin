@@ -230,6 +230,13 @@ void BitcoinGUI::createActions()
     voucherAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_9));
     tabGroup->addAction(voucherAction);
 
+    calculatorAction = new QAction(QIcon(":/icons/calculator"), tr("&Mining Calculator"), this);
+    calculatorAction->setStatusTip(tr("Calculate How Much BELA You Can Mine Daily"));
+    calculatorAction->setToolTip(calculatorAction->statusTip());
+    calculatorAction->setCheckable(true);
+    calculatorAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_9));
+    tabGroup->addAction(calculatorAction);
+
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(gotoOverviewPage()));
     connect(sendCoinsAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
@@ -248,6 +255,8 @@ void BitcoinGUI::createActions()
     connect(poolAction, SIGNAL(triggered()), this, SLOT(gotoPoolPage()));
     connect(voucherAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(voucherAction, SIGNAL(triggered()), this, SLOT(gotoVoucherPage()));
+    connect(calculatorAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
+    connect(calculatorAction, SIGNAL(triggered()), this, SLOT(gotoCalculatorPage()));
 
     quitAction = new QAction(QIcon(":/icons/quit"), tr("E&xit"), this);
     quitAction->setStatusTip(tr("Quit application"));
@@ -336,6 +345,7 @@ void BitcoinGUI::createToolBars()
     toolbar->addAction(tradeAction);
     toolbar->addAction(poolAction);
     toolbar->addAction(voucherAction);
+    toolbar->addAction(calculatorAction);
 }
 
 void BitcoinGUI::setClientModel(ClientModel *clientModel)
@@ -405,6 +415,7 @@ void BitcoinGUI::setWalletActionsEnabled(bool enabled)
     overviewAction->setEnabled(enabled);
     explorerAction->setEnabled(enabled);
     voucherAction->setEnabled(enabled);
+    calculatorAction->setEnabled(enabled);
     tradeAction->setEnabled(enabled);
     poolAction->setEnabled(enabled);
     sendCoinsAction->setEnabled(enabled);
@@ -530,6 +541,11 @@ void BitcoinGUI::gotoExplorerPage()
 void BitcoinGUI::gotoVoucherPage()
 {
     if (walletFrame) walletFrame->gotoVoucherPage();
+}
+
+void BitcoinGUI::gotoCalculatorPage()
+{
+    if (walletFrame) walletFrame->gotoCalculatorPage();
 }
 
 void BitcoinGUI::gotoTradePage()

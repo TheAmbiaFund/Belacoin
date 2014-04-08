@@ -29,6 +29,7 @@
         <file alias="overview">res/icons/overview.png</file>
         <file alias="explorer">res/icons/explorer.png</file>
         <file alias="voucher">res/icons/voucher.png</file>
+        <file alias="calculator">res/icons/calculator.png</file>
         <file alias="trade">res/icons/trade.png</file>
         <file alias="pool">res/icons/pools.png</file>
         <file alias="export">res/icons/export.png</file>

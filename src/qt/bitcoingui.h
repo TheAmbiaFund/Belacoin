@@ -15,6 +15,7 @@ class TransactionView;
 class OverviewPage;
 class ExplorerPage;
 class VoucherPage;
+class CalculatorPage;
 class TradePage;
 class PoolPage;
 class AddressBookPage;
@@ -69,6 +70,7 @@ public:
     QAction * getOverviewAction() { return overviewAction; }
     QAction * getExplorerAction() { return explorerAction; }
     QAction * getVoucherAction() { return voucherAction; }
+    QAction * getCalculatorAction() { return calculatorAction; }
     QAction * getTradeAction() { return tradeAction; }
     QAction * getPoolAction() { return poolAction; }
     QAction * getHistoryAction() { return historyAction; }
@@ -97,6 +99,7 @@ private:
     QAction *overviewAction;
     QAction *explorerAction;
     QAction *voucherAction;
+    QAction *calculatorAction;
     QAction *tradeAction;
     QAction *poolAction;
     QAction *historyAction;
@@ -181,6 +184,7 @@ private slots:
     void gotoTradePage();
     void gotoPoolPage();
     void gotoVoucherPage();
+    void gotoCalculatorPage();
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
     /** Switch to address book page */

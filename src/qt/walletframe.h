@@ -48,6 +48,7 @@ public slots:
     void gotoTradePage();
     void gotoPoolPage();
     void gotoVoucherPage();
+    void gotoCalculatorPage();
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
     /** Switch to address book page */

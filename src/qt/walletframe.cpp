@@ -93,6 +93,11 @@ void WalletFrame::gotoVoucherPage()
     walletStack->gotoVoucherPage();
 }
 
+void WalletFrame::gotoCalculatorPage()
+{
+    walletStack->gotoCalculatorPage();
+}
+
 void WalletFrame::gotoTradePage()
 {
     walletStack->gotoTradePage();

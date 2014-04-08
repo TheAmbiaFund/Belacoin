@@ -1,5 +1,5 @@
-#ifndef TRADEPAGE_H
-#define TRADEPAGE_H
+#ifndef CALCULATOR_H
+#define CALCULATOR_H
 
 #include <QWidget>
 #include <QNetworkAccessManager>
@@ -8,46 +8,43 @@
 #include <QTimer>
 
 namespace Ui {
-    class TradePage;
+    class CalculatorPage;
 }
 class ClientModel;
 class WalletModel;
-class TradeViewDelegate;
-class TransactionFilterProxy;
+class CalculatorViewDelegate;
 
 QT_BEGIN_NAMESPACE
 class QModelIndex;
 QT_END_NAMESPACE
 
-/** Trade ("home") page widget */
-class TradePage : public QWidget
+/** calculator page widget */
+class CalculatorPage : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit TradePage(QWidget *parent = 0);
-    ~TradePage();
+    explicit CalculatorPage(QWidget *parent = 0);
+    ~CalculatorPage();
 
     void setClientModel(ClientModel *clientModel);
     void setWalletModel(WalletModel *walletModel);
 
 public slots:
-    void setBalance(qint64 balance);
 
 signals:
 
 private:
-    Ui::TradePage *ui;
+    Ui::CalculatorPage *ui;
     ClientModel *clientModel;
     WalletModel *walletModel;
-    TradeViewDelegate *tradedelegate;
+
+    CalculatorViewDelegate *calculatordelegate;
     QNetworkAccessManager *nam;
-    QNetworkAccessManager *nam2;
-    qint64 currentBalance;
 
 private slots:
     void finished(QNetworkReply *reply);
     void DoHttpGet();
 };
 
-#endif // TRADEPAGE_H
+#endif // CALCULATOR_H
