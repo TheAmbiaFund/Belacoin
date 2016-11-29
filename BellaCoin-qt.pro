@@ -1,13 +1,14 @@
 TEMPLATE = app
 TARGET = BellaCoin-qt
 macx:TARGET = "BellaCoin-Qt"
-VERSION = 1.0.2.0
+VERSION = 1.0.2.1
 INCLUDEPATH += src src/json src/qt
-QT += core gui network
+QT += core gui network widgets
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
 CONFIG += no_include_pwd
 CONFIG += thread
+DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x000000
 
 # for boost 1.37, add -mt to the boost libraries
 # use: qmake BOOST_LIB_SUFFIX=-mt

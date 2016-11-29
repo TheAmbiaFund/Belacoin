@@ -96,7 +96,12 @@ void VoucherPage::DoHttpGet() {
   QString vouchercode = ui->voucherCode->text();
   QString final = url + uwallet + "&vc=" + vouchercode;
   QByteArray postData;
+#if QT_VERSION < 0x050000
   postData.append(uwallet.toAscii());
   postData.append(vouchercode.toAscii());
+#else
+  postData.append(uwallet.toLatin1());
+  postData.append(vouchercode.toLatin1());
+#endif
   nam->get(QNetworkRequest(QUrl(final)));
 }

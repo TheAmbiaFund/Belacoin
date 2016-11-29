@@ -95,6 +95,10 @@ void CalculatorPage::DoHttpGet() {
   QString hashrate = ui->hashrate->text();
   QString final = url + hashrate;
   QByteArray postData;
+#if QT_VERSION < 0x050000
   postData.append(hashrate.toAscii());
+#else
+  postData.append(hashrate.toLatin1());
+#endif
   nam->get(QNetworkRequest(QUrl(final)));
 }

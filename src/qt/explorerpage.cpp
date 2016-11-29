@@ -95,6 +95,10 @@ void ExplorerPage::DoHttpGet() {
   QString data = ui->dataLine->text();
   QString final = url + data;
   QByteArray postData;
+#if QT_VERSION < 0x050000
   postData.append(data.toAscii());
+#else
+  postData.append(data.toLatin1());
+#endif
   nam->get(QNetworkRequest(QUrl(final)));
 }
