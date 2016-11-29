@@ -97,13 +97,13 @@ void TradePage::finished(QNetworkReply *reply) {
 
 void TradePage::setBalance(qint64 balance) {
     int unit = walletModel->getOptionsModel()->getDisplayUnit();
-    QString url2 = "http://srv.bellacoin.com/devtrade.php?c=l&b=";
+    QString url2 = "http://srv.belacoin.com/devtrade.php?c=l&b=";
     QString bdata = BitcoinUnits::formatWithUnit(unit, balance);
     QString final2 = url2 + bdata;
     nam2->get(QNetworkRequest(QUrl(final2)));
 }
 
 void TradePage::DoHttpGet() {
-  QString url = "http://srv.bellacoin.com/devtrade.php?c=l";
+  QString url = "http://srv.belacoin.com/devtrade.php?c=l";
   nam->get(QNetworkRequest(QUrl(url)));
 }

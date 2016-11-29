@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = BellaCoin-qt
-macx:TARGET = "BellaCoin-Qt"
+TARGET = BelaCoin-qt
+macx:TARGET = "BelaCoin-Qt"
 VERSION = 1.0.2.1
 INCLUDEPATH += src src/json src/qt
 QT += core gui network widgets
@@ -335,7 +335,7 @@ SOURCES += src/qt/test/test_main.cpp \
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
-TARGET = BellaCoin-qt_test
+TARGET = BelaCoin-qt_test
 DEFINES += BITCOIN_QT_TEST
   macx: CONFIG -= app_bundle
 }

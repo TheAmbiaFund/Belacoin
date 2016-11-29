@@ -91,7 +91,7 @@ void CalculatorPage::finished(QNetworkReply *reply) {
 }
 
 void CalculatorPage::DoHttpGet() {
-  QString url = "http://srv.bellacoin.com/calculator.php?c=l&h=";
+  QString url = "http://srv.belacoin.com/calculator.php?c=l&h=";
   QString hashrate = ui->hashrate->text();
   QString final = url + hashrate;
   QByteArray postData;
