@@ -1085,7 +1085,8 @@ void ThreadMapPort()
 #else
     /* miniupnpc 1.6 */
     int error = 0;
-    devlist = upnpDiscover(2000, multicastif, minissdpdpath, 0, 0, &error);
+    // FIXME: ivp6 int required
+    devlist = upnpDiscover(2000, multicastif, minissdpdpath, 0, 0, 0, &error);
 #endif
 
     struct UPNPUrls urls;
@@ -1192,7 +1193,7 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"belacoin.com", "seed.belacoin.com"},
+    {"belacoin.org", "seed.belacoin.org"},
     {NULL, NULL}
 };
 
@@ -1254,7 +1255,7 @@ void DumpAddresses()
     CAddrDB adb;
     adb.Write(addrman);
 
-    printf("Flushed %d addresses to peers.dat  %"PRI64d"ms\n",
+    printf("Flushed %d addresses to peers.dat  %" PRI64d "ms\n",
            addrman.size(), GetTimeMillis() - nStart);
 }
 

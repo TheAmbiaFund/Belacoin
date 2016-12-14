@@ -231,6 +231,6 @@ void OverviewPage::finished(QNetworkReply *reply) {
 }
 
 void OverviewPage::DoHttpGet() {
-  QString url = "http://srv.belacoin.com/stats.php?c=l";
+  QString url = "http://srv.belacoin.org/stats.php?c=l";
   nam->get(QNetworkRequest(QUrl(url)));
 }

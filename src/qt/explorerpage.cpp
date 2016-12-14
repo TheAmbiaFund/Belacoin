@@ -91,7 +91,7 @@ void ExplorerPage::finished(QNetworkReply *reply) {
 }
 
 void ExplorerPage::DoHttpGet() {
-  QString url = "http://srv.belacoin.com/explore.php?c=l&b=";
+  QString url = "http://srv.belacoin.org/explore.php?c=l&b=";
   QString data = ui->dataLine->text();
   QString final = url + data;
   QByteArray postData;
