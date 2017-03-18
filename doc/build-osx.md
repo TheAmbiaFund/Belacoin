@@ -1,4 +1,4 @@
-Mac OS X BelaCoind build instructions
+Mac OS X Belacoind (Belacoin Daemon) build instructions
 ====================================
 
 Authors
@@ -83,6 +83,7 @@ Installing the dependencies using MacPorts is very straightforward.
 
         cd src
         make -f makefile.osx
+        (If the command directly above doesn't work, try this: make -f makefile.osx "USE_UPNP=-")
 
 3.  It is a good idea to build and run the unit tests, too:
 
@@ -126,6 +127,8 @@ Rerunning "openssl version" should now return the correct version.
 
         cd src
         make -f makefile.osx
+        (If the command directly above doesn't work, try this: make -f makefile.osx "USE_UPNP=-")
+
 
 4.  It is a good idea to build and run the unit tests, too:
 
