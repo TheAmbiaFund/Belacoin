@@ -6,7 +6,7 @@ Release Process
 ###update (commit) version in sources
 
 
-	BelaCoin-qt.pro
+	Belacoin-qt.pro
 	contrib/verifysfbinaries/verify.sh
 	doc/README*
 	share/setup.nsi
@@ -24,7 +24,7 @@ Release Process
 
 ##perform gitian builds
 
- From a directory containing the BelaCoin source, gitian-builder and gitian.sigs
+ From a directory containing the Belacoin source, gitian-builder and gitian.sigs
   
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
 	export VERSION=0.8.0
@@ -107,7 +107,7 @@ repackage gitian builds for release as stand-alone zip/tar/installer exe
 
 * create SHA256SUMS for builds, and PGP-sign it
 
-* update BelaCoin.com version
+* update Belacoin.org version
   make sure all OS download links go to the right versions
 
 * update forum version
