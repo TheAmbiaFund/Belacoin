@@ -1,21 +1,21 @@
 #!/usr/bin/perl -w
 
-## BelaCoin Linux installer
+## Belacoin Linux installer
 ## Revision 1
-## E-mail: installer@belacoin.org
+## E-mail: contact@belacoin.org
 
-## This installer must be ran as root for package management.  BelaCoin does not have to be run as root however.
+## This installer must be ran as root for package management.  Belacoin does not have to be run as root however.
 if ($< != 0) {
-  die("Sorry, for package management purposes this installer must be ran as root.\nBelaCoin does not have to be ran as root however once installation completes.\n");
+  die("Sorry, for package management purposes this installer must be ran as root.\nBelacoin does not have to be ran as root however once installation completes.\n");
 }
 
 print "\n
 #### *DISCLAIMER* ####
 # This script will make its best determinations to install supporting libraries and packages 
-# for purposes of compiling and running the BelaCoin wallet (Qt & console).
+# for purposes of compiling and running the Belacoin wallet (Qt & console).
 # While there is a slim chance this will do any harm to your system, we must warn that we are
 # not responsible for any damages claimed to have been caused by our script or coin.
-# If you have any questions, please contact installer\@belacoin.org.
+# If you have any questions, please contact contact\@belacoin.org.
 ####\n\n";
 
 print "Do you wish to continue? (Type Y or N) ";
@@ -85,11 +85,11 @@ if ($continue =~ /y/i) {
     print "Compiling the Qt BelaCoin wallet...";
     system("/usr/bin/qmake");
     if ($? != 0) {
-      print "Issue with qmake.  Please e-mail any output to installer\@belacoin.org.\n";
+      print "Issue with qmake.  Please e-mail any output to contact\@belacoin.org.\n";
     } else {
       system("make -j$processors");
       if ($? != 0) {
-        print "Issue compiling the Qt wallet.  Please e-mail any output to installer\@belacoin.org.\n";
+        print "Issue compiling the Qt wallet.  Please e-mail any output to contact\@belacoin.org.\n";
       } else {
         system("cp BelaCoin-qt /usr/local/bin/");
 	print "BelaCoin-qt has been installed in /usr/local/bin/\n";
@@ -99,11 +99,11 @@ if ($continue =~ /y/i) {
     print "\n\n\ncd src && /usr/bin/make -j$processors -f makefile.unix\n\n";
     system("cd src && /usr/bin/make -j$processors -f makefile.unix");
     if ($? != 0) {
-      print "Issue compiling the console wallet.  Please e-mail any output to installer\@belacoin.org.\n";
+      print "Issue compiling the console wallet.  Please e-mail any output to contact\@belacoin.org.\n";
     } else {
       system("cd src && make -f makefile.unix install");
       if ($? != 0) {
-        print "Issue installing the console wallet.  Please e-mail any output to installer\@belacoin.org.\n";
+        print "Issue installing the console wallet.  Please e-mail any output to contact\@belacoin.org.\n";
       } else {
         print "\nBelaCoind has been installed in /usr/local/bin/\n";
 	print "\nThe installer has finished.  Thank you for choosing BelaCoin!\nIf you have any questions, please visit http://www.belacoin.org\nor e-mail support\@belacoin.org\n\n";
@@ -114,7 +114,7 @@ if ($continue =~ /y/i) {
     foreach my $error (@errors) {
       print "Error installing: $error\n";
     }
-    print "\nPlease copy the above errors and mail them to installer\@belacoin.org\n";
+    print "\nPlease copy the above errors and mail them to contact\@belacoin.org\n";
   }
 
   }
