@@ -24,14 +24,14 @@ For more information, see http://www.Belacoin.org
 Resources
 ----------------
 
-Website: http://Belacoin.org
-Belacam: http://Belacam.com
-Bellachess: https://play.google.com/store/apps/details?id=com.vasilkoff.wallet_bela&hl=en
-Bitcointalk: https://bitcointalk.org/index.php?topic=1373100.0
-Whitepaper: http://belacoin.org/whitepaper.pdf
+- Website: http://Belacoin.org
+- Belacam: http://Belacam.com
+- Bellachess: https://play.google.com/store/apps/details?id=com.vasilkoff.wallet_bela&hl=en
+- Bitcointalk: https://bitcointalk.org/index.php?topic=1373100.0
+- Whitepaper: http://belacoin.org/whitepaper.pdf
 
-Windows Wallet: http://Belacoin.org/windowswallet.zip
-Mac Wallet: http://Belacoin.org/macwallet.dmg
+- Windows Wallet: http://Belacoin.org/windowswallet.zip
+- Mac Wallet: http://Belacoin.org/macwallet.dmg
 
 
 
