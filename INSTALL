@@ -1,4 +1,4 @@
-Building BelaCoin
+Building Belacoin
 
 
 ** NOTE **
@@ -7,10 +7,10 @@ If you are running Debian (Xubuntu, Ubuntu should work just fine too), you can j
 perl installer.pl
 
 
-See doc/readme-qt.rst for instructions on building BelaCoin-Qt,
+See doc/readme-qt.rst for instructions on building Belacoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of BelaCoin.
+implementation of Belacoin.
 
-See doc/build-*.txt for instructions on building BelaCoind,
+See doc/build-*.txt for instructions on building Belacoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of BelaCoin.
+implementation of Belacoin.
