@@ -34,7 +34,7 @@ if ($continue =~ /y/i) {
 
   ## If non-supported, exit.  But don't worry, if it hasn't been tested, I WILL get to testing it and including support for it!
   if (!defined $flavor) {
-    die("Sorry, your flavor of Linux hasn't been tested yet with this installer.\nIf you would like it to be added, please contact installer\@belacoin.org\n");
+    die("Sorry, your flavor of Linux hasn't been tested yet with this installer.\nIf you would like it to be added, please email contact\@belacoin.org\n");
   } else {
     &install_for($flavor);
   }
