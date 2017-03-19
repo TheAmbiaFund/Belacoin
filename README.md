@@ -34,7 +34,6 @@ Resources
 - Mac Wallet: http://Belacoin.org/macwallet.dmg
 
 
-
 License
 -------
 
