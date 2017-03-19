@@ -7,7 +7,7 @@ SetCompressor /SOLID lzma
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 1.0.0.0
 !define COMPANY "BelaCoin project"
-!define URL http://www.BelaCoin.com/
+!define URL http://www.BelaCoin.org/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/bitcoin.ico"
