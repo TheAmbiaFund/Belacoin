@@ -20,6 +20,8 @@ BelaCoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
 
 For more information, see http://www.Belacoin.org
 
+
+
 License
 -------
 
