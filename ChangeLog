@@ -1,10 +1,10 @@
--- Major changes in v2.0 of the BelaCoin Wallet --
+-- Major changes in v2.0 of the Belacoin Wallet --
 
 - Block explorer built into the wallet:  Searchable txID, block ID, hash, and addresses.
 - Trade statistics of current exchanges trading BELA added and auto-updated every 60 seconds.
-- BelaCoin Pool statistics from pools currently mining BELA auto-updated every 60 seconds.
+- Belacoin Pool statistics from pools currently mining BELA auto-updated every 60 seconds.
 - Number of latest transactions displayed on the overview display changed to 6 from 3.
-- BelaCoin statistics including the current difficulty, blocks found, network hash rate and total BELA in circulation auto-updated every 60 seconds.
+- Belacoin statistics including the current difficulty, blocks found, network hash rate and total BELA in circulation auto-updated every 60 seconds.
 - Live news and alerts on the overview page to allow for emergency news, updates/upgrades, and other related events/news auto-updated every 60 seconds.
 - New logo!
 
