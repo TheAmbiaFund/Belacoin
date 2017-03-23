@@ -5,12 +5,12 @@ http://www.Belacoin.org
 
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2011-2013 Litecoin Developers
-Copyright (c) 2017 BelaCoin Developers
+Copyright (c) 2014-2017 Belacoin Developers
 
-What is BelaCoin?
+What is Belacoin?
 ----------------
 
-BelaCoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+Belacoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
 
  - 2 minute block targets
  - subsidy halves in 730k blocks (~2 years)
