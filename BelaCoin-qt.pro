@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = BelaCoin-qt
 macx:TARGET = "BelaCoin-Qt"
-VERSION = 1.0.2.1
+VERSION = 1.1.0.0
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
