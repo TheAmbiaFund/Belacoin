@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BellaCoin</source>
-        <translation>Sobre BellaCoin</translation>
+        <source>About BelaCoin</source>
+        <translation>Sobre BelaCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BellaCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BellaCoin&lt;/b&gt; versió</translation>
+        <source>&lt;b&gt;BelaCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;BelaCoin&lt;/b&gt; versió</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The BellaCoin developers</source>
+        <source>The BelaCoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BellaCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces BellaCoin per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
+        <source>These are your BelaCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces BelaCoin per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BellaCoin address</source>
-        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça BellaCoin</translation>
+        <source>Sign a message to prove you own a BelaCoin address</source>
+        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça BelaCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -102,8 +102,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BellaCoin address</source>
-        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça BellaCoin específica</translation>
+        <source>Verify a message to ensure it was signed with a specified BelaCoin address</source>
+        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça BelaCoin específica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -117,8 +117,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BellaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són la seva adreça de BellaCoin per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
+        <source>These are your BelaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són la seva adreça de BelaCoin per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -243,8 +243,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BellaCoinS&lt;/b&gt;!</source>
-        <translation>Advertència: Si encripteu el vostre moneder i perdeu la constrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES BellaCoinS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BelaCoinS&lt;/b&gt;!</source>
+        <translation>Advertència: Si encripteu el vostre moneder i perdeu la constrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES BelaCoinS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>BellaCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BellaCoins from being stolen by malware infecting your computer.</source>
-        <translation>BellaCoin es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus BellaCoins de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
+        <source>BelaCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BelaCoins from being stolen by malware infecting your computer.</source>
+        <translation>BelaCoin es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus BelaCoins de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BellaCoin</source>
-        <translation>Mostra informació sobre BellaCoin</translation>
+        <source>Show information about BelaCoin</source>
+        <translation>Mostra informació sobre BelaCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a BellaCoin address</source>
-        <translation>Enviar monedes a una adreça BellaCoin</translation>
+        <source>Send coins to a BelaCoin address</source>
+        <translation>Enviar monedes a una adreça BelaCoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for BellaCoin</source>
-        <translation>Modificar les opcions de configuració per BellaCoin</translation>
+        <source>Modify configuration options for BelaCoin</source>
+        <translation>Modificar les opcions de configuració per BelaCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>BellaCoin</source>
-        <translation>BellaCoin</translation>
+        <source>BelaCoin</source>
+        <translation>BelaCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About BellaCoin</source>
-        <translation>&amp;Sobre BellaCoin</translation>
+        <source>&amp;About BelaCoin</source>
+        <translation>&amp;Sobre BelaCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,13 +495,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your BellaCoin addresses to prove you own them</source>
-        <translation>Signa el missatges amb la seva adreça de BellaCoin per provar que les poseeixes</translation>
+        <source>Sign messages with your BelaCoin addresses to prove you own them</source>
+        <translation>Signa el missatges amb la seva adreça de BelaCoin per provar que les poseeixes</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BellaCoin addresses</source>
-        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça BellaCoin específica.</translation>
+        <source>Verify messages to ensure they were signed with specified BelaCoin addresses</source>
+        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça BelaCoin específica.</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>BellaCoin client</source>
-        <translation>Client BellaCoin</translation>
+        <source>BelaCoin client</source>
+        <translation>Client BelaCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to BellaCoin network</source>
-        <translation><numerusform>%n connexió activa a la xarxa BellaCoin</numerusform><numerusform>%n connexions actives a la xarxa BellaCoin</numerusform></translation>
+        <source>%n active connection(s) to BelaCoin network</source>
+        <translation><numerusform>%n connexió activa a la xarxa BelaCoin</numerusform><numerusform>%n connexions actives a la xarxa BelaCoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -647,8 +647,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BellaCoin address or malformed URI parameters.</source>
-        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça BellaCoin invalida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid BelaCoin address or malformed URI parameters.</source>
+        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça BelaCoin invalida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -662,8 +662,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BellaCoin can no longer continue safely and will quit.</source>
-        <translation>Ha tingut lloc un error fatal. BellaCoin no pot continuar executant-se de manera segura i es tancará.</translation>
+        <source>A fatal error occurred. BelaCoin can no longer continue safely and will quit.</source>
+        <translation>Ha tingut lloc un error fatal. BelaCoin no pot continuar executant-se de manera segura i es tancará.</translation>
     </message>
 </context>
 <context>
@@ -728,8 +728,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BellaCoin address.</source>
-        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça BellaCoin valida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid BelaCoin address.</source>
+        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça BelaCoin valida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -747,8 +747,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>BellaCoin-Qt</source>
-        <translation>BellaCoin-Qt</translation>
+        <source>BelaCoin-Qt</source>
+        <translation>BelaCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -810,13 +810,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BellaCoin after logging in to the system.</source>
-        <translation>Iniciar automàticament BellaCoin després de l&apos;inici de sessió del sistema.</translation>
+        <source>Automatically start BelaCoin after logging in to the system.</source>
+        <translation>Iniciar automàticament BelaCoin després de l&apos;inici de sessió del sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BellaCoin on system login</source>
-        <translation>&amp;Iniciar BellaCoin al inici de sessió del sistema.</translation>
+        <source>&amp;Start BelaCoin on system login</source>
+        <translation>&amp;Iniciar BelaCoin al inici de sessió del sistema.</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -835,8 +835,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BellaCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir el port del client de BellaCoin al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
+        <source>Automatically open the BelaCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir el port del client de BelaCoin al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -845,8 +845,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BellaCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connectar a la xarxa BellaCoin a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
+        <source>Connect to the BelaCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connectar a la xarxa BelaCoin a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -920,8 +920,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BellaCoin.</source>
-        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï BellaCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting BelaCoin.</source>
+        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï BelaCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -935,8 +935,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BellaCoin addresses in the transaction list or not.</source>
-        <translation>Mostrar adreces BellaCoin als llistats de transaccions o no.</translation>
+        <source>Whether to show BelaCoin addresses in the transaction list or not.</source>
+        <translation>Mostrar adreces BelaCoin als llistats de transaccions o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -987,8 +987,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BellaCoin.</source>
-        <translation>Aquesta configuració tindrà efecte un cop es reiniciï BellaCoin.</translation>
+        <source>This setting will take effect after restarting BelaCoin.</source>
+        <translation>Aquesta configuració tindrà efecte un cop es reiniciï BelaCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1006,8 +1006,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BellaCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa BellaCoin un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BelaCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa BelaCoin un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1060,8 +1060,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start BellaCoin: click-to-pay handler</source>
-        <translation>No es pot iniciar BellaCoin: manejador clicla-per-pagar</translation>
+        <source>Cannot start BelaCoin: click-to-pay handler</source>
+        <translation>No es pot iniciar BelaCoin: manejador clicla-per-pagar</translation>
     </message>
 </context>
 <context>
@@ -1210,8 +1210,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BellaCoin-Qt help message to get a list with possible BellaCoin command-line options.</source>
-        <translation>Mostrar el missatge d&apos;ajuda de BellaCoin-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de BellaCoin.</translation>
+        <source>Show the BelaCoin-Qt help message to get a list with possible BelaCoin command-line options.</source>
+        <translation>Mostrar el missatge d&apos;ajuda de BelaCoin-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de BelaCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1230,13 +1230,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>BellaCoin - Debug window</source>
-        <translation>BellaCoin -Finestra de debug</translation>
+        <source>BelaCoin - Debug window</source>
+        <translation>BelaCoin -Finestra de debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BellaCoin Core</source>
-        <translation>Nucli de BellaCoin</translation>
+        <source>BelaCoin Core</source>
+        <translation>Nucli de BelaCoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1245,8 +1245,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BellaCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obrir el dietari de debug de BellaCoin del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
+        <source>Open the BelaCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obrir el dietari de debug de BelaCoin del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1255,8 +1255,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BellaCoin RPC console.</source>
-        <translation>Benvingut a la consola RPC de BellaCoin</translation>
+        <source>Welcome to the BelaCoin RPC console.</source>
+        <translation>Benvingut a la consola RPC de BelaCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1439,8 +1439,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BellaCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introdueixi una adreça de BellaCoin (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a BelaCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introdueixi una adreça de BelaCoin (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1504,8 +1504,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BellaCoin address</source>
-        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça BellaCoin</translation>
+        <source>Sign the message to prove you own this BelaCoin address</source>
+        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça BelaCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1540,8 +1540,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BellaCoin address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça BellaCoin específica</translation>
+        <source>Verify the message to ensure it was signed with the specified BelaCoin address</source>
+        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça BelaCoin específica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1556,8 +1556,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BellaCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introdueixi una adreça de BellaCoin (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a BelaCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introdueixi una adreça de BelaCoin (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1566,8 +1566,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BellaCoin signature</source>
-        <translation>Introduïr una clau BellaCoin</translation>
+        <source>Enter BelaCoin signature</source>
+        <translation>Introduïr una clau BelaCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1640,7 +1640,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BellaCoin developers</source>
+        <source>The BelaCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2178,8 +2178,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BellaCoin version</source>
-        <translation>Versió de BellaCoin</translation>
+        <source>BelaCoin version</source>
+        <translation>Versió de BelaCoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2188,8 +2188,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or BellaCoind</source>
-        <translation>Enviar comanda a -servidor o BellaCoind</translation>
+        <source>Send command to -server or BelaCoind</source>
+        <translation>Enviar comanda a -servidor o BelaCoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2208,13 +2208,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: BellaCoin.conf)</source>
-        <translation>Especificat arxiu de configuració (per defecte: BellaCoin.conf)</translation>
+        <source>Specify configuration file (default: BelaCoin.conf)</source>
+        <translation>Especificat arxiu de configuració (per defecte: BelaCoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: BellaCoind.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: BellaCoind.pid)</translation>
+        <source>Specify pid file (default: BelaCoind.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: BelaCoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2291,15 +2291,15 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=BellaCoinrpc
+rpcuser=BelaCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BellaCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;BelaCoin Alert&quot; admin@foo.com
 </source>
-        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=BellaCoinrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;BellaCoin Alert&quot; admin@foo.com</translation>
+        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=BelaCoinrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;BelaCoin Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2313,8 +2313,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BellaCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BellaCoin is probably already running.</source>
-        <translation>No es pot bloquejar el directori de dades %s. Probablement BellaCoin ja estigui en execució.</translation>
+        <source>Cannot obtain a lock on data directory %s. BelaCoin is probably already running.</source>
+        <translation>No es pot bloquejar el directori de dades %s. Probablement BelaCoin ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2358,8 +2358,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BellaCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BellaCoin will not work properly.</source>
-        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, BellaCoin no funcionará de manera apropiada.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BelaCoin will not work properly.</source>
+        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, BelaCoin no funcionará de manera apropiada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2608,8 +2608,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BellaCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the BellaCoin Wiki for SSL setup instructions)</source>
-        <translation>Opcions SSL: (veure la Wiki de BellaCoin per a instruccions de configuració SSL)</translation>
+        <source>SSL options: (see the BelaCoin Wiki for SSL setup instructions)</source>
+        <translation>Opcions SSL: (veure la Wiki de BelaCoin per a instruccions de configuració SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2798,13 +2798,13 @@ for example: alertnotify=echo %%s | mail -s &quot;BellaCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BellaCoin</source>
-        <translation>Error carregant wallet.dat: El moneder requereix una versió de BellaCoin més moderna</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of BelaCoin</source>
+        <translation>Error carregant wallet.dat: El moneder requereix una versió de BelaCoin més moderna</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BellaCoin to complete</source>
-        <translation>El moneder necesita ser re-escrit: re-inicia BellaCoin per a completar la tasca</translation>
+        <source>Wallet needed to be rewritten: restart BelaCoin to complete</source>
+        <translation>El moneder necesita ser re-escrit: re-inicia BelaCoin per a completar la tasca</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2863,8 +2863,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BellaCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BellaCoin is probably already running.</source>
-        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement BellaCoin ja estigui en execució.</translation>
+        <source>Unable to bind to %s on this computer. BelaCoin is probably already running.</source>
+        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement BelaCoin ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+64"/>

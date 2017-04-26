@@ -69,7 +69,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
     prevBlocks(0)
 {
     restoreWindowGeometry();
-    setWindowTitle(tr("BellaCoin") + " - " + tr("Wallet"));
+    setWindowTitle(tr("BelaCoin") + " - " + tr("Wallet"));
 #ifndef Q_OS_MAC
     QApplication::setWindowIcon(QIcon(":icons/bitcoin"));
     setWindowIcon(QIcon(":icons/bitcoin"));
@@ -175,7 +175,7 @@ void BitcoinGUI::createActions()
 
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send"), this);
-    sendCoinsAction->setStatusTip(tr("Send coins to a BellaCoin address"));
+    sendCoinsAction->setStatusTip(tr("Send coins to a BelaCoin address"));
     sendCoinsAction->setToolTip(sendCoinsAction->statusTip());
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
@@ -203,7 +203,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(addressBookAction);
 
     explorerAction = new QAction(QIcon(":/icons/explorer"), tr("&Explorer"), this);
-    explorerAction->setStatusTip(tr("BellaCoin Block Explorer"));
+    explorerAction->setStatusTip(tr("BelaCoin Block Explorer"));
     explorerAction->setToolTip(explorerAction->statusTip());
     explorerAction->setCheckable(true);
     explorerAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_6));
@@ -216,15 +216,15 @@ void BitcoinGUI::createActions()
     tradeAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_7));
     tabGroup->addAction(tradeAction);
 
-    poolAction = new QAction(QIcon(":/icons/pool"), tr("&BellaCoin Pools"), this);
-    poolAction->setStatusTip(tr("BellaCoin Pools Statistics"));
+    poolAction = new QAction(QIcon(":/icons/pool"), tr("&BelaCoin Pools"), this);
+    poolAction->setStatusTip(tr("BelaCoin Pools Statistics"));
     poolAction->setToolTip(poolAction->statusTip());
     poolAction->setCheckable(true);
     poolAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_8));
     tabGroup->addAction(poolAction);
 
     voucherAction = new QAction(QIcon(":/icons/voucher"), tr("&Voucher Redemption"), this);
-    voucherAction->setStatusTip(tr("Redeem Your BellaCoin Vouchers"));
+    voucherAction->setStatusTip(tr("Redeem Your BelaCoin Vouchers"));
     voucherAction->setToolTip(voucherAction->statusTip());
     voucherAction->setCheckable(true);
     voucherAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_9));
@@ -262,14 +262,14 @@ void BitcoinGUI::createActions()
     quitAction->setStatusTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About BellaCoin"), this);
-    aboutAction->setStatusTip(tr("Show information about BellaCoin"));
+    aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About BelaCoin"), this);
+    aboutAction->setStatusTip(tr("Show information about BelaCoin"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
     aboutQtAction->setStatusTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setStatusTip(tr("Modify configuration options for BellaCoin"));
+    optionsAction->setStatusTip(tr("Modify configuration options for BelaCoin"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
     toggleHideAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Show / Hide"), this);
     toggleHideAction->setStatusTip(tr("Show or hide the main Window"));
@@ -282,9 +282,9 @@ void BitcoinGUI::createActions()
     changePassphraseAction = new QAction(QIcon(":/icons/key"), tr("&Change Passphrase..."), this);
     changePassphraseAction->setStatusTip(tr("Change the passphrase used for wallet encryption"));
     signMessageAction = new QAction(QIcon(":/icons/edit"), tr("Sign &message..."), this);
-    signMessageAction->setStatusTip(tr("Sign messages with your BellaCoin addresses to prove you own them"));
+    signMessageAction->setStatusTip(tr("Sign messages with your BelaCoin addresses to prove you own them"));
     verifyMessageAction = new QAction(QIcon(":/icons/transaction_0"), tr("&Verify message..."), this);
-    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified BellaCoin addresses"));
+    verifyMessageAction->setStatusTip(tr("Verify messages to ensure they were signed with specified BelaCoin addresses"));
 
     openRPCConsoleAction = new QAction(QIcon(":/icons/debugwindow"), tr("&Debug window"), this);
     openRPCConsoleAction->setStatusTip(tr("Open debugging and diagnostic console"));
@@ -434,7 +434,7 @@ void BitcoinGUI::createTrayIcon()
 #ifndef Q_OS_MAC
     trayIcon = new QSystemTrayIcon(this);
 
-    trayIcon->setToolTip(tr("BellaCoin client"));
+    trayIcon->setToolTip(tr("BelaCoin client"));
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     trayIcon->show();
 #endif
@@ -445,7 +445,7 @@ void BitcoinGUI::createTrayIcon()
 void BitcoinGUI::createTrayIconMenu()
 {
     QMenu *trayIconMenu;
-#ifndef Q_OS_MAC
+#ifndef MAC_OSX
     // return if trayIcon is unset (only on non-Mac OSes)
     if (!trayIcon)
         return;
@@ -479,16 +479,16 @@ void BitcoinGUI::createTrayIconMenu()
 #endif
 }
 
-#ifndef Q_OS_MAC
 void BitcoinGUI::trayIconActivated(QSystemTrayIcon::ActivationReason reason)
 {
+#ifndef MAC_OSX
     if(reason == QSystemTrayIcon::Trigger)
     {
         // Click on system tray icon triggers show/hide of the main window
         toggleHideAction->trigger();
     }
-}
 #endif
+}
 
 void BitcoinGUI::saveWindowGeometry()
 {
@@ -600,7 +600,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to BellaCoin network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to BelaCoin network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count, int nTotalBlocks)
@@ -699,7 +699,7 @@ void BitcoinGUI::setNumBlocks(int count, int nTotalBlocks)
 
 void BitcoinGUI::message(const QString &title, const QString &message, unsigned int style, bool *ret)
 {
-    QString strTitle = tr("BellaCoin"); // default title
+    QString strTitle = tr("BelaCoin"); // default title
     // Default to information icon
     int nMBoxIcon = QMessageBox::Information;
     int nNotifyIcon = Notificator::Information;
@@ -830,7 +830,7 @@ void BitcoinGUI::dropEvent(QDropEvent *event)
         if (nValidUrisFound)
             walletFrame->gotoSendCoinsPage();
         else
-            message(tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid BellaCoin address or malformed URI parameters."),
+            message(tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid BelaCoin address or malformed URI parameters."),
                       CClientUIInterface::ICON_WARNING);
     }
 
@@ -853,7 +853,7 @@ void BitcoinGUI::handleURI(QString strURI)
 {
     // URI has to be valid
     if (!walletFrame->handleURI(strURI))
-        message(tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid BellaCoin address or malformed URI parameters."),
+        message(tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid BelaCoin address or malformed URI parameters."),
                   CClientUIInterface::ICON_WARNING);
 }
 

@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BellaCoin</source>
-        <translation>BellaCoinist</translation>
+        <source>About BelaCoin</source>
+        <translation>BelaCoinist</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BellaCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BellaCoini&lt;/b&gt; versioon</translation>
+        <source>&lt;b&gt;BelaCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;BelaCoini&lt;/b&gt; versioon</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,7 +34,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+0"/>
-        <source>The BellaCoin developers</source>
+        <source>The BelaCoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -67,8 +67,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your BellaCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Maksete saamiseks kasutatavad BellaCoini aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
+        <source>These are your BelaCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Maksete saamiseks kasutatavad BelaCoini aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,7 +82,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BellaCoin address</source>
+        <source>Sign a message to prove you own a BelaCoin address</source>
         <translation>Allkirjasta sõnum, et tõestada Bitconi aadressi olemasolu.</translation>
     </message>
     <message>
@@ -107,8 +107,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified BellaCoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud BellaCoini aadressiga.</translation>
+        <source>Verify a message to ensure it was signed with a specified BelaCoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud BelaCoini aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your BellaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu BellaCoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+        <source>These are your BelaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu BelaCoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BellaCoinS&lt;/b&gt;!</source>
-        <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA BellaCoinID&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BelaCoinS&lt;/b&gt;!</source>
+        <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA BelaCoinID&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>BellaCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BellaCoins from being stolen by malware infecting your computer.</source>
-        <translation>BellaCoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista BellaCoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
+        <source>BelaCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BelaCoins from being stolen by malware infecting your computer.</source>
+        <translation>BelaCoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista BelaCoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BellaCoin</source>
-        <translation>Kuva info BellaCoini kohta</translation>
+        <source>Show information about BelaCoin</source>
+        <translation>Kuva info BelaCoini kohta</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a BellaCoin address</source>
-        <translation>Saada münte BellaCoini aadressile</translation>
+        <source>Send coins to a BelaCoin address</source>
+        <translation>Saada münte BelaCoini aadressile</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for BellaCoin</source>
-        <translation>Muuda BellaCoini seadeid</translation>
+        <source>Modify configuration options for BelaCoin</source>
+        <translation>Muuda BelaCoini seadeid</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>BellaCoin</source>
-        <translation>BellaCoin</translation>
+        <source>BelaCoin</source>
+        <translation>BelaCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About BellaCoin</source>
-        <translation>%BellaCoinist</translation>
+        <source>&amp;About BelaCoin</source>
+        <translation>%BelaCoinist</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your BellaCoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma BellaCoini aadressiga</translation>
+        <source>Sign messages with your BelaCoin addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma BelaCoini aadressiga</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified BellaCoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud BellaCoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified BelaCoin addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud BelaCoini aadressiga</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+47"/>
-        <source>BellaCoin client</source>
-        <translation>BellaCoini klient</translation>
+        <source>BelaCoin client</source>
+        <translation>BelaCoini klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to BellaCoin network</source>
-        <translation><numerusform>%n aktiivne ühendus BellaCoini võrku</numerusform><numerusform>%n aktiivset ühendust BellaCoini võrku</numerusform></translation>
+        <source>%n active connection(s) to BelaCoin network</source>
+        <translation><numerusform>%n aktiivne ühendus BelaCoini võrku</numerusform><numerusform>%n aktiivset ühendust BelaCoini võrku</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid BellaCoin address or malformed URI parameters.</source>
-        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu BellaCoini aadress või vigased URI parameetrid.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid BelaCoin address or malformed URI parameters.</source>
+        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu BelaCoini aadress või vigased URI parameetrid.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. BellaCoin can no longer continue safely and will quit.</source>
-        <translation>Ilmnes kriitiline tõrge. BellaCoin suletakse turvakaalutluste tõttu.</translation>
+        <source>A fatal error occurred. BelaCoin can no longer continue safely and will quit.</source>
+        <translation>Ilmnes kriitiline tõrge. BelaCoin suletakse turvakaalutluste tõttu.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BellaCoin address.</source>
-        <translation>Sisestatud aadress &quot;%1&quot; ei ole BellaCoinis kehtiv.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid BelaCoin address.</source>
+        <translation>Sisestatud aadress &quot;%1&quot; ei ole BelaCoinis kehtiv.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>BellaCoin-Qt</source>
-        <translation>BellaCoini-Qt</translation>
+        <source>BelaCoin-Qt</source>
+        <translation>BelaCoini-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,13 +818,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BellaCoin after logging in to the system.</source>
-        <translation>Käivita BellaCoin süsteemi logimisel.</translation>
+        <source>Automatically start BelaCoin after logging in to the system.</source>
+        <translation>Käivita BelaCoin süsteemi logimisel.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BellaCoin on system login</source>
-        <translation>&amp;Start BellaCoin sisselogimisel</translation>
+        <source>&amp;Start BelaCoin on system login</source>
+        <translation>&amp;Start BelaCoin sisselogimisel</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -843,8 +843,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BellaCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>BellaCoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the BelaCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>BelaCoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -853,8 +853,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BellaCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Kasuta BellaCoini võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
+        <source>Connect to the BelaCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Kasuta BelaCoini võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,8 +928,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BellaCoin.</source>
-        <translation>Kasutajaliidese keele valimise koht. Valik rakendub BellaCoini käivitamisel.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting BelaCoin.</source>
+        <translation>Kasutajaliidese keele valimise koht. Valik rakendub BelaCoini käivitamisel.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -943,8 +943,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BellaCoin addresses in the transaction list or not.</source>
-        <translation>Kuvada BellaCoini aadress tehingute loetelus või mitte.</translation>
+        <source>Whether to show BelaCoin addresses in the transaction list or not.</source>
+        <translation>Kuvada BelaCoini aadress tehingute loetelus või mitte.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -995,8 +995,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BellaCoin.</source>
-        <translation>Tehtud valik rakendub BellaCoini käivitamisel.</translation>
+        <source>This setting will take effect after restarting BelaCoin.</source>
+        <translation>Tehtud valik rakendub BelaCoini käivitamisel.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1014,7 +1014,7 @@ Aadress: %4⏎</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BellaCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BelaCoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1068,8 +1068,8 @@ Aadress: %4⏎</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start BellaCoin: click-to-pay handler</source>
-        <translation>BellaCoin ei käivitu: vajuta-maksa toiming</translation>
+        <source>Cannot start BelaCoin: click-to-pay handler</source>
+        <translation>BelaCoin ei käivitu: vajuta-maksa toiming</translation>
     </message>
 </context>
 <context>
@@ -1218,8 +1218,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BellaCoin-Qt help message to get a list with possible BellaCoin command-line options.</source>
-        <translation>Näita kehtivate käsurea valikute kuvamiseks BellaCoini-Qt abiteksti</translation>
+        <source>Show the BelaCoin-Qt help message to get a list with possible BelaCoin command-line options.</source>
+        <translation>Näita kehtivate käsurea valikute kuvamiseks BelaCoini-Qt abiteksti</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,13 +1238,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>BellaCoin - Debug window</source>
-        <translation>BellaCoin - debugimise aken</translation>
+        <source>BelaCoin - Debug window</source>
+        <translation>BelaCoin - debugimise aken</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BellaCoin Core</source>
-        <translation>BellaCoini tuumik</translation>
+        <source>BelaCoin Core</source>
+        <translation>BelaCoini tuumik</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1253,8 +1253,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BellaCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ava BellaCoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
+        <source>Open the BelaCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ava BelaCoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1263,8 +1263,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the BellaCoin RPC console.</source>
-        <translation>Teretulemast BellaCoini RPC konsooli.</translation>
+        <source>Welcome to the BelaCoin RPC console.</source>
+        <translation>Teretulemast BelaCoini RPC konsooli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1447,8 +1447,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BellaCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta BellaCoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a BelaCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sisesta BelaCoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1512,8 +1512,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BellaCoin address</source>
-        <translation>Allkirjasta sõnum BellaCoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this BelaCoin address</source>
+        <translation>Allkirjasta sõnum BelaCoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,8 +1548,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BellaCoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud BellaCoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified BelaCoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud BelaCoini aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1564,8 +1564,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BellaCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta BellaCoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a BelaCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sisesta BelaCoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1574,8 +1574,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BellaCoin signature</source>
-        <translation>Sisesta BellaCoini allkiri</translation>
+        <source>Enter BelaCoin signature</source>
+        <translation>Sisesta BelaCoini allkiri</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1648,7 +1648,7 @@ Aadress: %4⏎</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The BellaCoin developers</source>
+        <source>The BelaCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2186,8 +2186,8 @@ Aadress: %4⏎</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>BellaCoin version</source>
-        <translation>BellaCoini versioon</translation>
+        <source>BelaCoin version</source>
+        <translation>BelaCoini versioon</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2196,8 +2196,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or BellaCoind</source>
-        <translation>Saada käsklus -serverile või BellaCoindile</translation>
+        <source>Send command to -server or BelaCoind</source>
+        <translation>Saada käsklus -serverile või BelaCoindile</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: BellaCoin.conf)</source>
-        <translation>Täpsusta sätete fail (vaikimisi: BellaCoin.conf)</translation>
+        <source>Specify configuration file (default: BelaCoin.conf)</source>
+        <translation>Täpsusta sätete fail (vaikimisi: BelaCoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: BellaCoind.pid)</source>
-        <translation>Täpsusta PID fail (vaikimisi: BellaCoin.pid)</translation>
+        <source>Specify pid file (default: BelaCoind.pid)</source>
+        <translation>Täpsusta PID fail (vaikimisi: BelaCoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2299,24 +2299,24 @@ Aadress: %4⏎</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=BellaCoinrpc
+rpcuser=BelaCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BellaCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;BelaCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, sul tuleb rpcpassword määrata seadete failis:
 %s
 Soovitatav on kasutada järgmist juhuslikku parooli:
-rpcuser=BellaCoinrpc
+rpcuser=BelaCoinrpc
 rpcpassword=%s
 (seda parooli ei pea meeles pidama)
 Kasutajanimi ning parool EI TOHI kattuda.
 Kui faili ei leita, loo see ainult-omaniku-loetavas failiõigustes .
 Soovitatav on seadistada tõrgete puhul teavitus;
-nt: alertnotify=echo %%s | email -s &quot;BellaCoin Alert&quot; admin@foo.com
+nt: alertnotify=echo %%s | email -s &quot;BelaCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2331,8 +2331,8 @@ nt: alertnotify=echo %%s | email -s &quot;BellaCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BellaCoin is probably already running.</source>
-        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on BellaCoin juba avatud.</translation>
+        <source>Cannot obtain a lock on data directory %s. BelaCoin is probably already running.</source>
+        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on BelaCoin juba avatud.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2376,8 +2376,8 @@ nt: alertnotify=echo %%s | email -s &quot;BellaCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BellaCoin will not work properly.</source>
-        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis BellaCoin ei tööta korralikult</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BelaCoin will not work properly.</source>
+        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis BelaCoin ei tööta korralikult</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2626,8 +2626,8 @@ nt: alertnotify=echo %%s | email -s &quot;BellaCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the BellaCoin Wiki for SSL setup instructions)</source>
-        <translation>SSL valikud: (vaata BellaCoini Wikist või SSL sätete juhendist)</translation>
+        <source>SSL options: (see the BelaCoin Wiki for SSL setup instructions)</source>
+        <translation>SSL valikud: (vaata BelaCoini Wikist või SSL sätete juhendist)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2816,13 @@ nt: alertnotify=echo %%s | email -s &quot;BellaCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BellaCoin</source>
-        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab BellaCoini uusimat versiooni</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of BelaCoin</source>
+        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab BelaCoini uusimat versiooni</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart BellaCoin to complete</source>
-        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita BellaCoin</translation>
+        <source>Wallet needed to be rewritten: restart BelaCoin to complete</source>
+        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita BelaCoin</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2881,8 +2881,8 @@ nt: alertnotify=echo %%s | email -s &quot;BellaCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. BellaCoin is probably already running.</source>
-        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. BellaCoin juba töötab.</translation>
+        <source>Unable to bind to %s on this computer. BelaCoin is probably already running.</source>
+        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. BelaCoin juba töötab.</translation>
     </message>
     <message>
         <location line="+64"/>

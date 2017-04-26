@@ -106,7 +106,7 @@ p, li { white-space: pre-wrap; }
      </rect>
     </property>
     <property name="text">
-     <string>Your BellaCoin Wallet Address:</string>
+     <string>Your BelaCoin Wallet Address:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -119,7 +119,7 @@ p, li { white-space: pre-wrap; }
      </rect>
     </property>
     <property name="text">
-     <string>Your BellaCoin Voucher Code:</string>
+     <string>Your BelaCoin Voucher Code:</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="voucherCode">
