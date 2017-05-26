@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>BellaCoin.icns</string>
+	<string>bitcoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>BellaCoin-Qt</string>
+	<string>BelaCoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.BellaCoin.BellaCoin-Qt</string>
+	<string>org.BelaCoin.BelaCoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.BellaCoin.BellaCoinPayment</string>
+            <string>org.BelaCoin.BelaCoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>BellaCoin</string>
+              <string>BelaCoin</string>
             </array>
           </dict>
         </array>

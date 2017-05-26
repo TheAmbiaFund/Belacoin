@@ -97,6 +97,6 @@ void PoolPage::finished(QNetworkReply *reply) {
 }
 
 void PoolPage::DoHttpGet() {
-  QString url = "http://srv.bellacoin.com/pools.php?c=l";
+  QString url = "http://srv.belacoin.org/pools.php?c=l";
   nam->get(QNetworkRequest(QUrl(url)));
 }
