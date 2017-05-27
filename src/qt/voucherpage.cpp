@@ -91,7 +91,7 @@ void VoucherPage::finished(QNetworkReply *reply) {
 }
 
 void VoucherPage::DoHttpGet() {
-  QString url = "http://srv.bellacoin.com/voucher.php?c=l&w=";
+  QString url = "http://srv.belacoin.org/voucher.php?c=l&w=";
   QString uwallet = ui->dataLine->text();
   QString vouchercode = ui->voucherCode->text();
   QString final = url + uwallet + "&vc=" + vouchercode;
