@@ -357,7 +357,7 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
 bool CTxOut::IsDust() const
 {
     // BelaCoin: IsDust() detection disabled, allows any valid dust to be relayed.
-    // The fees imposed on each dust txo is considered sufficient spam deterrant. 
+    // The fees imposed on each dust txo is considered sufficient spam deterrant.
     return false;
 }
 
@@ -1116,19 +1116,19 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBloc
   double EventHorizonDeviation;
   double EventHorizonDeviationFast;
   double EventHorizonDeviationSlow;
-        
+
   if (BlockLastSolved == NULL || BlockLastSolved->nHeight == 0 || (uint64)BlockLastSolved->nHeight < PastBlocksMin) {
     return bnProofOfWorkLimit.GetCompact();
   }
 
   int64 LatestBlockTime = BlockLastSolved->GetBlockTime();
   for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) {
-    if (PastBlocksMax > 0 && i > PastBlocksMax) { 
+    if (PastBlocksMax > 0 && i > PastBlocksMax) {
       break;
     }
 
   PastBlocksMass++;
-                
+
   if (i == 1) {
     PastDifficultyAverage.SetCompact(BlockReading->nBits);
   } else  {
@@ -1164,19 +1164,19 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBloc
   EventHorizonDeviation = 1 + (0.7084 * pow((double(PastBlocksMass)/double(144)), -1.228));
   EventHorizonDeviationFast = EventHorizonDeviation;
   EventHorizonDeviationSlow = 1 / EventHorizonDeviation;
-                
+
   if (PastBlocksMass >= PastBlocksMin) {
     if ((PastRateAdjustmentRatio <= EventHorizonDeviationSlow) || (PastRateAdjustmentRatio >= EventHorizonDeviationFast)) {
       assert(BlockReading); break;
     }
   }
- 
+
   if (BlockReading->pprev == NULL) {
     assert(BlockReading); break;
   }
   BlockReading = BlockReading->pprev;
   }
-        
+
   CBigNum bnNew(PastDifficultyAverage);
   if (PastRateActualSeconds != 0 && PastRateTargetSeconds != 0) {
     bnNew *= PastRateActualSeconds;
@@ -1311,7 +1311,7 @@ unsigned int static DarkGravityWave3(const CBlockIndex* pindexLast, const CBlock
 
     // debug print
     printf("DarkGravityWave3 RETARGET\n");
-    printf("nTargetTimespan = %"PRI64d"    nActualTimespan = %"PRI64d"\n", nTargetTimespan, nActualTimespan);
+    printf("nTargetTimespan = %" PRI64d "    nActualTimespan = %" PRI64d "\n", nTargetTimespan, nActualTimespan);
     printf("Before: %08x  %s\n", pindexLast->nBits, CBigNum().SetCompact(pindexLast->nBits).getuint256().ToString().c_str());
     printf("After:  %08x  %s\n", bnNew.GetCompact(), bnNew.getuint256().ToString().c_str());
 
