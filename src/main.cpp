@@ -1102,7 +1102,7 @@ unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
 }
 
 unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBlockHeader *pblock, uint64 TargetBlocksSpacingSeconds, uint64 PastBlocksMin, uint64 PastBlocksMax) {
-  /* current difficulty formula - kimoto gravity well */
+  /* legacy difficulty formula - kimoto gravity well */
   const CBlockIndex *BlockLastSolved = pindexLast;
   const CBlockIndex *BlockReading = pindexLast;
   const CBlockHeader *BlockCreating = pblock;
@@ -1345,7 +1345,7 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
     else
     {
         if (pindexLast->nHeight+1 >= 6115) { DiffMode = 2; }
-        else if (pindexLast->nHeight+1 >= 699354) { DiffMode = 3; } // DGW3
+        else if (pindexLast->nHeight+1 >= 715000) { DiffMode = 3; } // DGW3
     }
 
     if (DiffMode == 1)
