@@ -1,7 +1,7 @@
-TOR SUPPORT IN Belacoin
+TOR SUPPORT IN Bela
 ======================
 
-It is possible to run Belacoin as a Tor hidden service, and connect to such services.
+It is possible to run Bela as a Tor hidden service, and connect to such services.
 
 The following directions assume you have a Tor proxy running on port 9050. Many distributions
 default to having a SOCKS proxy listening on port 9050, but others may not.
@@ -10,10 +10,10 @@ https://www.torproject.org/docs/faq.html.en#TBBSocksPort for how to properly
 configure Tor.
 
 
-1. Run Belacoin behind a Tor proxy
+1. Run Bela behind a Tor proxy
 ---------------------------------
 
-The first step is running Belacoin behind a Tor proxy. This will already make all
+The first step is running Bela behind a Tor proxy. This will already make all
 outgoing connections be anonimized, but more is possible.
 
 -socks=5        SOCKS5 supports connecting-to-hostname, which can be used instead
@@ -42,7 +42,7 @@ In a typical situation, this suffices to run behind a Tor proxy:
   ./Belacoind -proxy=127.0.0.1:9050
 
 
-2. Run a Belacoin hidden server
+2. Run a Bela hidden server
 ------------------------------
 
 If you configure your Tor system accordingly, it is possible to make your node also
@@ -55,7 +55,7 @@ config file):
 The directory can be different of course, but (both) port numbers should be equal to
 your Belacoind's P2P listen port (9333 by default).
 
--externalip=X   You can tell Belacoin about its publicly reachable address using
+-externalip=X   You can tell Bela about its publicly reachable address using
                 this option, and this can be a .onion address. Given the above
                 configuration, you can find your onion address in
                 /var/lib/tor/Belacoin-service/hostname. Onion addresses are given
